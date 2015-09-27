@@ -1,6 +1,6 @@
 {
   "name": "pod-deploy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cross-platform deployment tool with native dependencyless solutions for each platform.",
   "main": "index.js",
   "scripts": {
