@@ -22,4 +22,4 @@ Windows implementation adds a pod.ps1 script into your path.
 }
 ```
 
-**Defaults to looking in the root of a podfile for a podfile.json**
+**Defaults to looking in the root of the pod package for a podfile.json**
