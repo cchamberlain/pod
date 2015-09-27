@@ -1,13 +1,15 @@
-# pod
+# pod (WIP)
 Cross-platform deployment tool with native dependencyless solutions for each platform.
 
-## Windows
-Windows implementation adds a pod.ps1 script into your path.
+### Installation
+**`npm install -g pod-deploy`**
 
-**usage: pod [-d|-Diff path/to/left,path/to/right [-NoLeft|-NoRight]] [-g|-Generate] [-c|-PodfilePath path/to/podfile] [-p|-Porcelain] [path/to/pod]**
+### Usage
+
+**`pod [-d|-Diff path/to/left,path/to/right [-NoLeft|-NoRight]] [-g|-Generate] [-c|-PodfilePath path/to/podfile] [-p|-Porcelain] [path/to/pod]`**
 
 
-## Podfile Format
+### Podfile Format
 
 ```json
 { "targets":  [ { "name":     "SERVER_ONE"
@@ -23,3 +25,12 @@ Windows implementation adds a pod.ps1 script into your path.
 ```
 
 **Defaults to looking in the root of the pod package for a podfile.json**
+
+## Platforms
+The goal of pod is to focus on installing a lightweight dependencyless deployment / web server solution with native implementations for each platform.
+
+#### Windows
+Windows implementation adds a pod.ps1 script into your %SYSTEMROOT%\system32\PowerShell\v1.0 which is automatically added into your PowerShell path.  Supports PowerShell 3.0+ (Windows Server 2008+ Compatible)
+
+#### Unix-like Systems
+A bash implementation will be available soon that adheres to the same commands as pod in Windows.
