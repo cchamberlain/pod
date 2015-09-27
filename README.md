@@ -30,7 +30,9 @@ Cross-platform deployment toolkit with native dependencyless solutions for each 
 The goal of pod is to focus on installing a lightweight dependencyless deployment / web server solution with native implementations for each platform.
 
 #### Windows
-Windows implementation adds a pod.ps1 script into your %SYSTEMROOT%\system32\PowerShell\v1.0 which is automatically added into your PowerShell path.  Supports PowerShell 3.0+ (Windows Server 2008+ Compatible)
+Windows implementation adds a pod.ps1 script into your `%SYSTEMROOT%\system32\PowerShell\v1.0` path which is automatically added into your PowerShell PATH environment variable. Supports PowerShell 3.0+ (Windows Server 2008+ Compatible)
+
+To run from PowerShell, you must first set the execution policy on the machine.  In PowerShell, issue command `Set-ExecutionPolicy RemoteSigned`
 
 #### Unix-like Systems
 A bash implementation will be available soon that adheres to the same commands as pod in Windows.
