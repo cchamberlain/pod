@@ -1,5 +1,5 @@
 # pod (WIP)
-Cross-platform deployment tool with native dependencyless solutions for each platform.
+Cross-platform deployment toolkit with native dependencyless solutions for each platform.
 
 ### Installation
 **`npm install -g pod-deploy`**
